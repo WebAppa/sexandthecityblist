@@ -1,0 +1,159 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: rgba(255, 228, 196, 0.295) 1px 1px 1px;}
+
+
+
+
+html {
+    background: linear-gradient(0.25turn, rgb(80, 36, 0), bisque, rgb(80, 36, 0));  /* KEEP */
+    color: bisque;
+}
+
+body {
+    background-color: rgba(31, 14, 0, 0.712);     /* KEEP */
+    min-height: 30vh;
+    max-width: 900px;
+    margin: 0 auto;
+    text-shadow: rgb(80, 36, 0) 1px 1px 1px;  
+
+    /* rgb(44, 44, 44) */
+
+}
+
+header {
+
+    box-shadow: none;
+}
+
+
+
+h1, h2 {
+    text-shadow: rgba(255, 0, 221, 0.288) 6px 2px 2px;
+    color: bisque;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    border-radius: 20%;
+
+}
+
+h2 { box-shadow: rgba(255, 228, 196, 0.295) 0px 1px 0px;
+
+
+}
+
+table {
+    padding: 10px;
+    font-weight: 600;
+}
+
+
+
+.theflexbox {
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 228, 196, 0.151);
+
+
+}
+
+.thtdnotvis { visibility: collapse;}
+
+
+
+.biggybox {
+
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.uno, .biggybox {
+
+    box-shadow: none;
+
+}
+
+.lefttd {
+    border-left: solid rgba(255, 228, 196, 0.295) 1px;
+}
+
+/* INNER Tablestyle */
+
+.nada {
+
+    background-color: rgba(31, 14, 0, 0.712);
+    color: rgba(31, 14, 0, 0.712);
+}
+
+.nowraptxt{
+    text-wrap: nowrap;
+    color:  rgb(0, 255, 255);
+    background-color: rgba(0, 204, 255, 0.322);
+
+}
+
+.epis {
+
+    background-color: rgba(255, 0, 221, 0.288);    /* KEEP */
+    color: rgba(255, 228, 196, 0.664);
+}
+
+
+/* Footerstyle */
+
+strong{
+    border: none;
+    box-shadow: none;
+}
+
+section, footer {
+
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* || Phones */
+
+@media screen and (max-width: 843px) {
+
+
+    .thtdnotvis { visibility: visible;}
+
+    .lefttd {
+        border-left: none;
+    }
+
+    
+    .theflexbox {
+
+        
+        background-color: none;
+    
+    
+    }
+
+
+    
+
+}
+
+
